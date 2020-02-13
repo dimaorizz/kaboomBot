@@ -1,0 +1,28 @@
+{
+  "name": "etbot",
+  "version": "1.0.0",
+  "description": "Telegram entertainment bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimaorizz/ETbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimaorizz/ETbot/issues"
+  },
+  "homepage": "https://github.com/dimaorizz/ETbot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.8.7",
+    "telegraf": "^3.35.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
